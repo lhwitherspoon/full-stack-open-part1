@@ -43,6 +43,7 @@ const Content = (props) => {
 }
 
 const Part = (props) => {
+  console.log(props)
   return (
     <div>
       <p>
@@ -60,6 +61,7 @@ const Total = (props) => {
   // const exercises2 = 7
   // const part3 = 'State of a component'
   // const exercises3 = 14
+  console.log(props)
   return (
     <div>
       <p>Number of exercises {props.exercises1 + props.exercises2 + props.exercises3}</p>
